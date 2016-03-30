@@ -15,6 +15,7 @@ ReactDOM.render(
     <Route path='/' component={pages.Home}/>
     <Route path='classnames' component={pages.ClassNames}/>
     <Route path='cssmodules' component={pages.CSSModules}/>
+    <Route path='reactcssmodules' component={pages.ReactCSSModules}/>
     <Route path='es6' component={pages.ES6}/>
     <Route path='composition' component={pages.Composition}/>
   </Router>,

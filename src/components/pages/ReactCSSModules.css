@@ -1,0 +1,77 @@
+.main {
+  composes: mdl-layout mdl-layout--fixed-header mdl-color--grey-100 from 'styles/material.css';
+}
+.header {
+  composes: mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800 from 'styles/material.css';
+}
+.header-row {
+  composes: mdl-layout__header-row from 'styles/material.css';
+  padding-left: 40px;
+}
+.header-title {
+  composes: mdl-layout-title from 'styles/material.css';
+}
+.spacer {
+  composes: mdl-layout-spacer from 'styles/material.css';
+}
+.text-field {
+  composes: mdl-textfield mdl-textfield--expandable from 'styles/material.css';
+}
+.search-button{
+  composes: mdl-button mdl-button--icon from 'styles/material.css';
+}
+.icon{
+  composes: material-icons from 'styles/material.css';
+}
+.textfield-container {
+  composes: mdl-textfield__expandable-holder from 'styles/material.css';
+}
+.main-content {
+  composes: demo-main mdl-layout__content from 'styles/material.css';
+}
+.padding-large {
+  padding: 3em;
+}
+.input {
+  composes: mdl-textfield__input from 'styles/material.css';
+}
+.label {
+  composes: mdl-textfield__label from 'styles/material.css';
+}
+.demo-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #0074d9;
+  flex-shrink: 0;
+}
+.demo-main {
+  composes: mdl-layout__content from 'styles/material.css';
+  margin-top: -35vh;
+  flex-shrink: 0;
+}
+.demo-container {
+  composes: mdl-grid from 'styles/material.css';
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+.cell {
+  composes: mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone from 'styles/material.css';
+}
+.demo-content {
+  composes: mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col from 'styles/material.css';
+  border-radius: 2px;
+  padding: 80px 56px;
+  padding-top: 0;
+  margin-bottom: 80px;
+}
+.demo-footer {
+  composes: mdl-mini-footer from 'styles/material.css';
+  padding-left: 40px;
+}
+.demo-footer-left-section {
+  composes: mdl-mini-footer--left-section from 'styles/material.css';
+}
+.demo-footer-link-list {
+  composes: mdl-mini-footer--link-list from 'styles/material.css';
+}

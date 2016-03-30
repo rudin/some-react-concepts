@@ -19,6 +19,7 @@ export default class Home extends Component {
         <li><Link to={'composition'}>Composition</Link></li>
         <li><Link to={'classnames'}>ClassNames</Link></li>
         <li><Link to={'cssmodules'}>CSSModules</Link></li>
+        <li><Link to={'reactcssmodules'}>React CSSModules</Link></li>
       </ul>
     );
   }
