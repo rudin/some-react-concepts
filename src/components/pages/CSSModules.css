@@ -1,0 +1,36 @@
+.main {
+  composes: demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100 from 'styles/material.css';
+}
+.header {
+  composes: demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800 from 'styles/material.css';
+}
+.headerRow {
+  composes: mdl-layout__header-row from 'styles/material.css';
+}
+.headerTitle {
+  composes: mdl-layout-title from 'styles/material.css';
+}
+.spacer {
+  composes: mdl-layout-spacer from 'styles/material.css';
+}
+.textField {
+  composes: mdl-textfield mdl-js-textfield mdl-textfield--expandable from 'styles/material.css';
+}
+.searchButton{
+  composes: mdl-button mdl-js-button mdl-button--icon from 'styles/material.css';
+}
+.icon{
+  composes: material-icons from 'styles/material.css';
+}
+.textfieldContainer {
+  comsposes: mdl-textfield__expandable-holder from 'styles/material.css';
+}
+
+
+.mainContent {
+  composes: demo-main mdl-layout__content from 'styles/material.css';
+}
+
+.paddingLarge {
+  padding: 3em;
+}
